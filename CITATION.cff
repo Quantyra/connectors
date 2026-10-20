@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this package and identify the exact public commit and component files used."
+title: "Quantyra connectors"
+type: dataset
+version: "v1.0.0"
+authors:
+  - family-names: "Fredriksen"
+    given-names: "Daniel Eric"
+    affiliation: "Quantyra"
+repository-code: "https://github.com/Quantyra/connectors"
+url: "https://github.com/Quantyra/connectors"
+license: CERN-OHL-S-2.0
+abstract: >-
+  Enclosed paired pin sleeve V2: editable OpenSCAD, exact printable STL,
+  supplied machine-specific G-code and documentation. User-reported basic
+  functional demonstration with a yellow LED that works and flashes.

@@ -1,0 +1,63 @@
+{
+  "package": "Quantyra connectors",
+  "version": "v1.0.0",
+  "units": "mm",
+  "source_location": "https://github.com/Quantyra/connectors",
+  "license": "CERN-OHL-S-2.0",
+  "scope": "All material files listed; manifest.json and SHA256SUMS excluded to avoid circular hashes.",
+  "artifacts": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 651,
+      "sha256": "9843de76b3a3b7da91c4d502e26542d17a1a662b22c1252e5c3cdc4dba002777"
+    },
+    {
+      "path": "connectors/paired-pin-sleeve/cad/paired-pin-sleeve-v2.scad",
+      "bytes": 6004,
+      "sha256": "d3dcea8e9d14dc584e7ae0ed1b47433fa0c58d1d883d00355b06e75d52b5ecd3"
+    },
+    {
+      "path": "connectors/paired-pin-sleeve/gcode/paired_led_jumper_sleeve_v2-Ender-3 V3 KE_0.4_CR-PETG_2m.gcode",
+      "bytes": 131908,
+      "sha256": "69f0cd52de2f5f5b5b0c7606ecd6924692a90395feaab629ba36c31a6df5d4c4"
+    },
+    {
+      "path": "connectors/paired-pin-sleeve/previews/print.png",
+      "bytes": 15444,
+      "sha256": "12a22e1e6130bf09528439ee949dcf533681fe8f0c3c193096963a5a001de317"
+    },
+    {
+      "path": "connectors/paired-pin-sleeve/README.md",
+      "bytes": 4216,
+      "sha256": "94f641f4c0bf3feb1d1be08138c1513bb6d9e27bc6e208e4c7da3b0954824b8f"
+    },
+    {
+      "path": "connectors/paired-pin-sleeve/stl/sleeve_pair_v2.stl",
+      "bytes": 4684,
+      "sha256": "085fb89ef044a1d2fff8ae67e14b602a770535099eb6d8faa2bc175b897468a9"
+    },
+    {
+      "path": "docs/licensing.md",
+      "bytes": 1157,
+      "sha256": "4301fc066b72db32954f9ea0755f6ff9f7acdcf25322eeafa1a8b9bbce8f5ad2"
+    },
+    {
+      "path": "docs/supplied-gcode.md",
+      "bytes": 2538,
+      "sha256": "3612feb835ab851b252c2fbab192ec9e22cf7757e4accaaf79b9b0682f3fe960"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 13708,
+      "sha256": "1378410f52f977bc20cfa85054f6d2075f6b222de18492d14f63f9bd544e9f95"
+    },
+    {
+      "path": "README.md",
+      "bytes": 919,
+      "sha256": "9fb0d6062e335993ab03ce06564831a22ae625cc7bffbb4899fa5e9c1704b068"
+    }
+  ],
+  "source_edit": "Comments only; executable tokens and parameters unchanged.",
+  "demonstration": "User-reported basic functional demonstration: yellow LED works and flashes.",
+  "gcode_association": "Filename and user association; dimensional consistency supports 6.20 mm upright height, not cryptographic slice identity."
+}
