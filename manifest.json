@@ -1,6 +1,8 @@
 {
   "package": "Quantyra connectors",
-  "version": "v1.0.0",
+  "version": "post-v1.0.0-prototypes",
+  "base_release": "v1.0.0",
+  "release_status": "Unreleased main additions; the v1.0.0 release remains the original paired sleeve only.",
   "units": "mm",
   "source_location": "https://github.com/Quantyra/connectors",
   "license": "CERN-OHL-S-2.0",
@@ -10,6 +12,21 @@
       "path": "CITATION.cff",
       "bytes": 651,
       "sha256": "9843de76b3a3b7da91c4d502e26542d17a1a662b22c1252e5c3cdc4dba002777"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 13708,
+      "sha256": "1378410f52f977bc20cfa85054f6d2075f6b222de18492d14f63f9bd544e9f95"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1775,
+      "sha256": "0fc2c02ea22ef33fd7c87cab971fa9af3055cc1386c5d13a32072ab859a5ff47"
+    },
+    {
+      "path": "connectors/paired-pin-sleeve/README.md",
+      "bytes": 4216,
+      "sha256": "94f641f4c0bf3feb1d1be08138c1513bb6d9e27bc6e208e4c7da3b0954824b8f"
     },
     {
       "path": "connectors/paired-pin-sleeve/cad/paired-pin-sleeve-v2.scad",
@@ -27,14 +44,79 @@
       "sha256": "12a22e1e6130bf09528439ee949dcf533681fe8f0c3c193096963a5a001de317"
     },
     {
-      "path": "connectors/paired-pin-sleeve/README.md",
-      "bytes": 4216,
-      "sha256": "94f641f4c0bf3feb1d1be08138c1513bb6d9e27bc6e208e4c7da3b0954824b8f"
-    },
-    {
       "path": "connectors/paired-pin-sleeve/stl/sleeve_pair_v2.stl",
       "bytes": 4684,
       "sha256": "085fb89ef044a1d2fff8ae67e14b602a770535099eb6d8faa2bc175b897468a9"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/README.md",
+      "bytes": 11183,
+      "sha256": "52610bdd017663d422da2f216ea05b9abebec2866a4e223e1f0e24cd0c955731"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/cad/three-channel-common.scad",
+      "bytes": 7016,
+      "sha256": "2b25dd096b05dceb9dcb3f311475e38f87fb9354ee9f8609fab768b5fd3d04c0"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/cad/to220-narrow-254.scad",
+      "bytes": 937,
+      "sha256": "f32f4ab2c20fcd069bd893a1895e438e5c151de25c4576b9a8c43ef018a7cd89"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/cad/to92-formed-254.scad",
+      "bytes": 918,
+      "sha256": "453826927ea54fc795a026731adee04fe76ce62a99ad0c44269b3910b2021e79"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to220-narrow-254-assembly.png",
+      "bytes": 44103,
+      "sha256": "af2043a4658c1e2dab52b4202891cb54c56be6bee059bcbafb6803dfd0a56d8c"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to220-narrow-254-cutaway.png",
+      "bytes": 44325,
+      "sha256": "7b8d1f71a225112dbbc99b08b9525e4ffeb04e778ad0f660ec18ffbc12b371c6"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to220-narrow-254-print.png",
+      "bytes": 40330,
+      "sha256": "85701c90a5a4e3c5ca0970f7dfeaec96f9cabb8e5e97aa31aa33a60ae94eb0c5"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to220-narrow-254-sections.png",
+      "bytes": 82238,
+      "sha256": "03c4666c3397ebacbe8919a81c9c53574b27f21b776fc41eb86afa9a876ce9dc"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to92-formed-254-assembly.png",
+      "bytes": 44049,
+      "sha256": "c96a3152ac65be5fa413ced53d3aaf47299d640c397c6a818463b92847832111"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to92-formed-254-cutaway.png",
+      "bytes": 44242,
+      "sha256": "4789275e5331f7a96bcc4a75b7f7d632f1de88f649d2c2773a44125b12c1145a"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to92-formed-254-print.png",
+      "bytes": 39215,
+      "sha256": "54f1a1c9ddbe510c646aee9b940cb5b940466005a1894cf2f79883a0fa4340c5"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/previews/to92-formed-254-sections.png",
+      "bytes": 82169,
+      "sha256": "8d87fc7e7d2e0c0674239085b2cf88db77e868d7b42eed4dc6924a4feac3cc76"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/stl/to220-narrow-254.stl",
+      "bytes": 24003,
+      "sha256": "3e93e65ab2ea11b06ef8eb7546b162e32ff1a5d063ce51ebf993b5d275a400f3"
+    },
+    {
+      "path": "connectors/three-pin-sleeve/stl/to92-formed-254.stl",
+      "bytes": 24697,
+      "sha256": "e0733a325b20f946d5486ec93750e164ca9def5eb57ec55bc47a32a6dafee745"
     },
     {
       "path": "docs/licensing.md",
@@ -45,19 +127,30 @@
       "path": "docs/supplied-gcode.md",
       "bytes": 2538,
       "sha256": "3612feb835ab851b252c2fbab192ec9e22cf7757e4accaaf79b9b0682f3fe960"
-    },
-    {
-      "path": "LICENSE",
-      "bytes": 13708,
-      "sha256": "1378410f52f977bc20cfa85054f6d2075f6b222de18492d14f63f9bd544e9f95"
-    },
-    {
-      "path": "README.md",
-      "bytes": 919,
-      "sha256": "9fb0d6062e335993ab03ce06564831a22ae625cc7bffbb4899fa5e9c1704b068"
     }
   ],
-  "source_edit": "Comments only; executable tokens and parameters unchanged.",
-  "demonstration": "User-reported basic functional demonstration: yellow LED works and flashes.",
-  "gcode_association": "Filename and user association; dimensional consistency supports 6.20 mm upright height, not cryptographic slice identity."
+  "source_edit": {
+    "scope": "Original paired V2 only: connectors/paired-pin-sleeve/cad/paired-pin-sleeve-v2.scad",
+    "statement": "Comments only; executable tokens and parameters unchanged.",
+    "post_v1_0_0_changes": "None; original paired files retained byte-for-byte."
+  },
+  "demonstration": {
+    "scope": "Original paired V2 only: connectors/paired-pin-sleeve",
+    "statement": "User-reported basic functional demonstration: yellow LED works and flashes."
+  },
+  "gcode_association": {
+    "scope": "Original paired V2 only",
+    "statement": "Filename and user association; dimensional consistency supports 6.20 mm upright height, not cryptographic slice identity."
+  },
+  "prototype_additions": {
+    "scope": "connectors/three-pin-sleeve",
+    "status": "untested prototype",
+    "models": [
+      "TO-92 formed 2.54 mm tails",
+      "TO-220 narrow straight blades near 2.54 mm pitch"
+    ],
+    "validation": "OpenSCAD export, mesh, layer and bounded rigid-proxy analysis only; no physical tests or slicer preview.",
+    "gcode": "None supplied; original paired G-code is not applicable."
+  },
+  "citation_scope": "Unchanged CITATION.cff describes v1.0.0; identify exact commit and component files for later additions."
 }
